@@ -1,0 +1,65 @@
+/*element {
+	property: value;
+}*/
+
+/*= universal selctor*/
+
+* {
+	font-family: 'Roboto', sans-serif;
+}
+
+
+h1, h2 {
+	font-family: 'Montserrat', sans-serif;
+}
+
+#landing {
+	/*margin-top-spacing for the element*/
+	margin-top: 12.5vh;
+	height: 87.5vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: transparent;
+}
+
+img {
+	height: 250px;
+	width: 250px;
+	border-radius: 150px;
+}
+
+/*#-targeting elements*/
+
+#gallery {
+	padding: 5vh 0;
+	display: flex;
+	flex-direction : column;
+	justify-content: center;
+	align-items: center;
+	border-radius: 10px;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+}
+
+/*.- division/div tags*/
+.tools {
+	/*#f2f2f2- hexadecimals value google color */
+	border: 5px solid #f2f2f2;
+	width: 75%;
+	margin: 20px;
+	padding: 25px;
+	color: white;
+}
+
+h2 {
+	color: #C7AD50;
+}
+
+html {
+	scroll-behavior: smooth;
+}
